@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/s.css" />
+    <style>
+      body {
+        padding: 50px 500px;
+      }
+      .container {
+        border: 1px solid black;
+        padding: 10px;
+        min-height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="text" class="todoInp" />
+      <button id="btn">add</button>
+    </div>
+    <br />
+    <br />
+    <div class="container"></div>
+    <script>
+      const btn = document.querySelector("btn");
+      const todoInp = document.querySelector(".todoInp");
+      const container = document.querySelector(".container");
+      let memoElement;
+      todoInp.focus();
+      btn.addEventListener("click", function (e) {
+        if (btn.textContent === add) if (todoInp.value === "") return;
+      })
+      const todoItem = document.createElement("div")
+      const todoItem__text = document.createElement("div")
+      const todoItem__edit = document.createElement("button")
+      const todoItem__trash = document.createElement("button")
+
+      todoItem
+    </script>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
